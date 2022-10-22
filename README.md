@@ -1,4 +1,5 @@
 # Monitoring &amp; Alerting solution for Calamari Network (Monitoring Stack)
+![Copy of Staking is live](https://user-images.githubusercontent.com/90826754/197347767-66449f15-0dce-4538-ac82-2b8d626da6d9.jpg)
 
 >**The Polkadot & Kusama ecosystems have raised an incredible attention in the past few years.**
 
