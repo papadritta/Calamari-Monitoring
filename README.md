@@ -18,15 +18,54 @@
 
 ## The set of services required:
 
-## 1. Set UFW (open ports)
+## 1. Install and setup the UFW (rules for the ports)
+
+- Install UFW
 ```
-sudo ufw allow 9100
-sudo ufw allow 9090
-sudo ufw allow 9093
-sudo ufw allow 9615
-sudo ufw allow 3000
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install -y build-essential && sudo apt install jq -y
+apt-get install lsof ufw
 ```
-**NOTE: This is additional rules for UFW. Don't forget to set all the rules and add Default ports: 22, 80, 443 for your SSH client to avoid loose the control of your server.**
+- Setup and enable the rules
+
+```
+ufw allow 22
+ufw allow 80
+ufw allow 443
+ufw allow 3000
+ufw allow 9090
+ufw allow 9093
+ufw allow 9100
+ufw allow 9133
+ufw allow 9144
+ufw allow 9615
+ufw allow 9616
+ufw allow 9933
+ufw allow 30333
+ufw allow 30334
+ufw allow 31333
+ufw allow 31334
+
+ufw deny out from any to 10.0.0.0/8
+ufw deny out from any to 172.16.0.0/12
+ufw deny out from any to 192.168.0.0/16
+ufw deny out from any to 100.64.0.0/10
+ufw deny out from any to 198.18.0.0/15
+ufw deny out from any to 169.254.0.0/16
+```
+**NOTE: This is general rules for UFW. Don't forget to set additional rules for you SSH-client (if you use port tunneling) and NGINX (if you use proxi SSL).**
+
+- enable UFW and check the status
+```
+ufw enable
+```
+
+- check UFW, listen specific and all ports (use command one by one)
+```
+sudo ufw status
+sudo lsof -i -P -n | grep LISTEN | grep calamari
+ss -tulpn
+```
 
 ## 2. Node-exporter [Check the lastest release](https://github.com/prometheus/node_exporter/releases)
 
