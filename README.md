@@ -1,2 +1,14 @@
-# Monitoring
-Monitoring &amp; Alerting solution for Calamari Network (Monitoring Stack)
+# Monitoring &amp; Alerting solution for Calamari Network (Monitoring Stack)
+
+**The Polkadot & Kusama ecosystems have raised an incredible attention in the past few years.**
+
+**Calamari Network is a private layer built for the entire Kusama ecosystem. Built on the substrate framework, Calamari Network is natively compatible with other projects and parachain assets including wrapped major cryptoassets.**
+
+**Calamari, Manta Network's canary net, is the plug-and-play privacy-preservation parachain built to serve the Kusama world.**
+
+**The Calamari parachain will be Privacy Hub for Kusama with multiple privacy solutions for all web3 projects.**
+
+**Many individuals joined the adventure and set up their own validator node, which is extraordinary for decentralization. However, maintaining a validator node is a huge responsibility as you are basically securing millions of dollars on the blockchain. Health and security of your node have to be the top priority for you as a validator.**
+
+**This guide provides helpful monitoring and alerting content for Calamari validators, but most of the configuration is exactly the same for a Polkadot, Kusama, or any Substrate based node.**
+
