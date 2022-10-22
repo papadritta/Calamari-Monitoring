@@ -194,6 +194,7 @@ sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 rm -rf prometheus-2.39.1.linux-amd64
 rm prometheus-2.39.1.linux-amd64.tar.gz
 ```
+### Setting config
 
 - Setup YAML config
 ```
@@ -243,6 +244,8 @@ sudo -u prometheus /usr/local/bin/prometheus \
     --web.console.libraries=/etc/prometheus/console_libraries \
     --web.listen-address="localhost:9090"
 ```
+
+### Setting service
 
 - Create a systemd service
 ```
