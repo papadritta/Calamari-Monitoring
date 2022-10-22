@@ -515,7 +515,7 @@ groups:
 - name: alert_rules
   rules:
   - alert: Available_disk_space_too_low
-    expr: node_filesystem_avail_bytes{mountpoint="/"} <= 81920000000
+    expr: node_filesystem_avail_bytes{mountpoint="/"} <= 82830000000
     for: 1m
     labels:
       severity: critical
@@ -542,13 +542,6 @@ groups:
       severity: critical
     annotations:
       summary: Calamari node is down more than 1 minute!!!
-  - alert: HostHighCpuLoad
-    expr: 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[2m])) * 100) > 80
-    for: 0m
-    labels:
-      severity: warning
-    annotations:
-      summary: High CPU load Calamari is > 80%
 ```
 - check the rules with promtool
 ```
