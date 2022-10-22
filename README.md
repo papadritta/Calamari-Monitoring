@@ -26,7 +26,7 @@ sudo ufw allow 9093
 sudo ufw allow 9615
 sudo ufw allow 3000
 ```
-**NOTE: This is additional rules for UFW. Don't forget to set all the rules and add Default port 22, 80, 443 for your SSH client to avoid loose the control of your server.**
+**NOTE: This is additional rules for UFW. Don't forget to set all the rules and add Default ports: 22, 80, 443 for your SSH client to avoid loose the control of your server.**
 
 ## 2. Node-exporter [Check the lastest release](https://github.com/prometheus/node_exporter/releases)
 
