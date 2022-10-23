@@ -173,7 +173,7 @@ sha256sum prometheus-2.39.1.linux-amd64.tar.gz
 tar xvf prometheus-2.39.1.linux-amd64.tar.gz
 ```
 
--copy the binary to the following location and set ownership
+- copy the binary to the following location and set ownership
 ```
 sudo cp prometheus-2.39.1.linux-amd64/prometheus /usr/local/bin/
 sudo cp prometheus-2.39.1.linux-amd64/promtool /usr/local/bin/
