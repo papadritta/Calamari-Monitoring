@@ -1,1 +1,38 @@
+# 8. Setting Graphana dashboard
 
+## Accessing Grafana and adding your dashboards:
+
+- check you server IP <server_IP> by running command
+```
+wget -qO- eth0.me
+```
+
+**NOTE: The <server_IP> output add to the next line**
+
+
+- login on your browser
+```
+http://<server_IP>:3000/
+```
+
+
+**NOTE: The default credentials for Grafana are: Username: admin, Password: admin**
+
+- make a new strong password
+
+- login into your Graphana dashboard with your new credenteals
+
+- Add your first data source (Prometheus)
+```
+> Data Sources / Prometheus
+add URL http://localhost:9090
+```
+- Save & Test 
+> Data source is working
+
+- Add your second data source (Alertmanager)
+> Data Sources / Alertmanager
+add Implementation Prometheus
+add URL http://localhost:9093
+
+- Add your first Dashboard
