@@ -608,9 +608,14 @@ add URL http://localhost:9093
 
 <img width="1857" alt="Screen Shot 2022-10-23 at 13 54 48" src="https://user-images.githubusercontent.com/90826754/197448580-c260097b-89a6-4013-9df7-ed7a729c4c72.png">
 
-- Download JSON file [here](https://www.acv.is/)
-and connect two sources and run a dashboard
+1. Download JSON file
+[here](https://www.acv.is/)
 
+2. Upload JSON file
+<img width="1583" alt="Screen Shot 2022-10-24 at 11 33 51" src="https://user-images.githubusercontent.com/90826754/197449464-8c457796-3c89-4547-8675-a330135853a8.png">
+
+3. connect two data sources and run a dashboard
+Prometheus & Alertmanager
 
 - Setup the dashboard
 
