@@ -17,4 +17,4 @@
 
 - open the tab and copy Integration Key (<add_your_key_here>)
 
-**NOTE: this key we need to add to Setup the Alertmanager YAML configuration file**
+**NOTE: this key we need to add to Setup the Alertmanager YAML configuration file [here](/box/alert-manager.md)**
