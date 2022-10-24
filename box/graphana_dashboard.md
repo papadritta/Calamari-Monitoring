@@ -55,7 +55,7 @@ add URL http://localhost:9093
 <img width="1857" alt="Screen Shot 2022-10-23 at 13 54 48" src="https://user-images.githubusercontent.com/90826754/197448580-c260097b-89a6-4013-9df7-ed7a729c4c72.png">
 
 1. Download JSON file
-Standart Node-Exporter Dashboard you can download [here](https://www.acv.is/)
+Standart Node-Exporter Dashboard you can download [here](/node-exporter.json)
 
 2. Upload JSON file or Import via grafana.com by ID, type 1860 and click on the Load button.
 <img width="1583" alt="Screen Shot 2022-10-24 at 11 33 51" src="https://user-images.githubusercontent.com/90826754/197449464-8c457796-3c89-4547-8675-a330135853a8.png">
