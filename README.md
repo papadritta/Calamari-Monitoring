@@ -606,7 +606,14 @@ add URL http://localhost:9093
 
 - Add your first Dashboard
 
+<img width="1857" alt="Screen Shot 2022-10-23 at 13 54 48" src="https://user-images.githubusercontent.com/90826754/197448580-c260097b-89a6-4013-9df7-ed7a729c4c72.png">
+
+- Download JSON file [here](https://www.acv.is/)
+and connect two sources and run a dashboard
 
 
+- Setup the dashboard
 
+<img width="2337" alt="Screen Shot 2022-10-23 at 22 48 37" src="https://user-images.githubusercontent.com/90826754/197448743-b2598483-79c5-48d1-bb30-a92180c8915d.png">
 
+ALL DONE!!!
