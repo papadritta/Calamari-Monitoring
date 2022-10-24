@@ -614,8 +614,7 @@ add URL http://localhost:9093
 2. Upload JSON file
 <img width="1583" alt="Screen Shot 2022-10-24 at 11 33 51" src="https://user-images.githubusercontent.com/90826754/197449464-8c457796-3c89-4547-8675-a330135853a8.png">
 
-3. connect two data sources and run a dashboard
-Prometheus & Alertmanager
+3. connect two data sources (Prometheus & Alertmanager) and run a dashboard
 
 - Setup the dashboard
 
