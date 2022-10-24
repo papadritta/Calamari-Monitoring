@@ -609,15 +609,16 @@ add URL http://localhost:9093
 <img width="1857" alt="Screen Shot 2022-10-23 at 13 54 48" src="https://user-images.githubusercontent.com/90826754/197448580-c260097b-89a6-4013-9df7-ed7a729c4c72.png">
 
 1. Download JSON file
-[here](https://www.acv.is/)
+Standart Node-Exporter Dashboard you can download [here](https://www.acv.is/)
 
-2. Upload JSON file
+2. Upload JSON file or Import via grafana.com by ID
 <img width="1583" alt="Screen Shot 2022-10-24 at 11 33 51" src="https://user-images.githubusercontent.com/90826754/197449464-8c457796-3c89-4547-8675-a330135853a8.png">
 
-3. connect two data sources (Prometheus & Alertmanager) and run a dashboard
+3. Run Node-Exporter Dashboard & setup the dashboard as you wish
+<img width="1812" alt="Screen Shot 2022-10-24 at 16 11 36" src="https://user-images.githubusercontent.com/90826754/197492576-4ef3f3d5-91e9-4676-8210-f45b8cb041cc.png">
 
-- Setup the dashboard
+ALL DONE!!!
+**NOTE: IF YOU NEED PROFESSIONAL CUSTOM DASHBOARD, PLEASE REACH ME OUT**
 
 <img width="2337" alt="Screen Shot 2022-10-23 at 22 48 37" src="https://user-images.githubusercontent.com/90826754/197448743-b2598483-79c5-48d1-bb30-a92180c8915d.png">
 
-ALL DONE!!!
