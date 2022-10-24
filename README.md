@@ -10,8 +10,6 @@
 
 **NOTE: THIS GUIDE PROVIDES HELPFUL MONITORING AND ALERTING SOLUTION FOR CALAMARI VALIDATORS, BUT MOST OF THE CONFIGURATION IS EXACTLY THE SAME FOR A POLKADOT, KUSAMA, OR ANY SUBSTRATE BASED NODE.**
 
-<img width="2337" alt="Screen Shot 2022-10-23 at 22 48 37" src="https://user-images.githubusercontent.com/90826754/197495694-ccc10e8f-d8f4-49d1-8586-f1abce7cacae.png">
-
 **Tested on Ubuntu 20.04.05 LTS**
 
 ## The set of services required:
