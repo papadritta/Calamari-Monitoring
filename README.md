@@ -426,7 +426,10 @@ rm alertmanager-0.24.0.linux-amd64.tar.gz
 ```
 sudo nano /etc/alertmanager/alertmanager.yml
 ```
-- copy and paste (don't forget to change <add_your_key_here> from Page Duty and add your key)
+- copy and paste 
+
+**NOTE: Don't forget to change <add_your_key_here> from Page Duty and add your key.**
+
 ```
 route:
   group_by: ['alertname']
