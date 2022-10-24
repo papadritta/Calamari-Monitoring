@@ -13,21 +13,21 @@
 
 ### The set of services required:
 
-### 1. Install and setup the UFW (rules for the ports) [Itstallation & setup](/ufw.md)
+### 1. Install and setup the UFW (rules for the ports) [Itstallation & setup](/box/ufw.md)
 
-### 2. Node-exporter [Itstallation & setup](/node-exporter.md)
+### 2. Node-exporter [Itstallation & setup](/box/node-exporter.md)
 
-### 3. Prometheus [Itstallation & setup](/prometheus.md)
+### 3. Prometheus [Itstallation & setup](/box/prometheus.md)
 
-### 4. Grafana [Itstallation & setup](/grafana.md)
+### 4. Grafana [Itstallation & setup](/box/grafana.md)
 
-### 5. Page duty intagration [Itstallation & setup](/pageduty.md)
+### 5. Page duty intagration [Itstallation & setup](/box/pageduty.md)
 
-### 6. Alert-Manager [Itstallation & setup](/alert-manager.md)
+### 6. Alert-Manager [Itstallation & setup](/box/alert-manager.md)
 
-### 7. Setting Alert Rules for Prometheus [Itstallation & setup](/alerting_rules_prom.md)
+### 7. Setting Alert Rules for Prometheus [Itstallation & setup](/box/alerting_rules_prom.md)
 
-### 8. Setting Graphana dashboard [Itstallation & setup](/graphana_dashboard.md)
+### 8. Setting Graphana dashboard [Itstallation & setup](/box/graphana_dashboard.md)
 
 >**NOTE: IF YOU NEED PROFESSIONAL CUSTOM DASHBOARD, PLEASE REACH ME OUT**
 
