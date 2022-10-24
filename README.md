@@ -10,29 +10,30 @@
 
 **NOTE: THIS GUIDE PROVIDES HELPFUL MONITORING AND ALERTING SOLUTION FOR CALAMARI VALIDATORS, BUT MOST OF THE CONFIGURATION IS EXACTLY THE SAME FOR A POLKADOT, KUSAMA, OR ANY SUBSTRATE BASED NODE.**
 
-**Tested on Ubuntu 20.04.05 LTS**
 
-## The set of services required:
+### The set of services required:
 
-## 1. Install and setup the UFW (rules for the ports) [Itstallation & setup](/ufw.md)
+### 1. Install and setup the UFW (rules for the ports) [Itstallation & setup](/ufw.md)
 
-## 2. Node-exporter [Itstallation & setup](/node-exporter.md)
+### 2. Node-exporter [Itstallation & setup](/node-exporter.md)
 
-## 3. Prometheus [Itstallation & setup](/prometheus.md)
+### 3. Prometheus [Itstallation & setup](/prometheus.md)
 
-## 4. Grafana [Itstallation & setup](/grafana.md)
+### 4. Grafana [Itstallation & setup](/grafana.md)
 
-## 5. Page duty intagration [Itstallation & setup](/pageduty.md)
+### 5. Page duty intagration [Itstallation & setup](/pageduty.md)
 
-## 6. Alert-Manager [Itstallation & setup](/alert-manager.md)
+### 6. Alert-Manager [Itstallation & setup](/alert-manager.md)
 
-## 7. Setting Alert Rules for Prometheus [Itstallation & setup](/alerting_rules_prom.md)
+### 7. Setting Alert Rules for Prometheus [Itstallation & setup](/alerting_rules_prom.md)
 
-## 8. Setting Graphana dashboard [Itstallation & setup](/graphana_dashboard.md)
+### 8. Setting Graphana dashboard [Itstallation & setup](/graphana_dashboard.md)
 
-ALL DONE!!!
+**ALL DONE!!!**
 
 **NOTE: IF YOU NEED PROFESSIONAL CUSTOM DASHBOARD, PLEASE REACH ME OUT**
+
+>**Tested on Ubuntu 20.04.05 LTS**
 
 <img width="2337" alt="Screen Shot 2022-10-23 at 22 48 37" src="https://user-images.githubusercontent.com/90826754/197448743-b2598483-79c5-48d1-bb30-a92180c8915d.png">
 
