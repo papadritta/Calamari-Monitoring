@@ -16,7 +16,7 @@
 
 ## The set of services required:
 
-## 1. Install and setup the UFW (rules for the ports)
+## 1. Install and setup the UFW (rules for the ports) [Itstallation & setup](/ufw.md)
 
 - Install UFW
 ```
