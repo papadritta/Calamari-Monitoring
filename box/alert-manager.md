@@ -50,7 +50,7 @@ sudo nano /etc/alertmanager/alertmanager.yml
 ```
 - copy and paste 
 
-**NOTE: Don't forget to change <add_your_key_here> from Page Duty and add your key.** [you can find <add_your_key_here>](/pageduty.md)
+**NOTE: Don't forget to change [<add_your_key_here>](/box/pageduty.md) from Page Duty and add your key.** 
 
 ```
 route:
