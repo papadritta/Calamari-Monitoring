@@ -36,4 +36,9 @@
 
 >**Tested on Ubuntu 20.04.05 LTS**
 
+## You need a server?
+- Use the links with referal programm <a href="https://www.vultr.com/?ref=8997131"><img src="https://www.vultr.com/media/logo_ondark.png?_gl=1*rz7yd*_ga*MTE0OTQ2MjAwOS4xNjY3MzEwNjM0*_ga_K6536FHN4D*MTY2NzMxNTYyOS4yLjEuMTY2NzMxNjEwNS4wLjAuMA.." alt="VULTR Referral Badge" /></a>            <a href="https://www.digitalocean.com/?refcode=87b8b298c106&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+
+**NOTE!: use a referal link & you will get credit 100$ to your server provider account**
+
 **ALL DONE!!!**
